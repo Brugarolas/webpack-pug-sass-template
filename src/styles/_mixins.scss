@@ -1,0 +1,16 @@
+@mixin animation-growing {
+  will-change: transform;
+  animation: growing 2s infinite;
+  animation-fill-mode: both;
+  animation-timing-function: ease-in-out;
+  animation-direction: alternate;
+}
+
+@keyframes growing {
+  from {
+    transform: scale(0.9);
+  }
+  to {
+    transform: scale(1.1);
+  }
+}

@@ -1,0 +1,26 @@
+@import 'colors';
+@import 'breakpoints';
+@import 'fonts';
+@import 'icons';
+@import 'mixins';
+@import 'components';
+
+:root, html, body {
+  margin: 0;
+  @include roboto-slab('regular', 16px);
+  color: $main-color;
+  background-color: $background-color;
+}
+
+.image-wrapper {
+  width: 200px;
+  height: 200px;
+  margin: 50px auto;
+  @include animation-growing();
+}
+
+.title {
+   text-align: center;
+   font-size: 48px;
+   text-shadow: 1px 1px 1px #fff;
+}
