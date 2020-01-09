@@ -1,5 +1,5 @@
 {
-  "name": "bruga-portfolio",
+  "name": "bruga-webpack-pug-sass-template",
   "description": "Just a simple template for starting a Webpack project with Pug and Sass pre-configured",
   "version": "1.0.0",
   "author": "andres-brugarolas",
